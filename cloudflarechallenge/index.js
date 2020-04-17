@@ -2,8 +2,6 @@ addEventListener('fetch', event => {
   event.respondWith(handleRequest(event.request))
 })
 
-const data = { username: 'example' };
-
 /**
  * Respond with hello worker text
  * @param {Request} request
